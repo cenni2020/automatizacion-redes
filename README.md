@@ -93,3 +93,28 @@ Documentar la preparación y configuración de una estación de trabajo para aut
 ![Importación GNS3 VM](docs/Practica-01/Evidencias/15-VMW-GNS3.png)
 ![Integración GNS3](docs/Practica-01/Evidencias/16-VMW-GNS3-ambos-funcionando.png)
 
+## Avance del proyecto integrador
+
+### Práctica 1
+Preparación de la estación de automatización de redes.
+Estado: Completada.
+![Topologia01](docs/practica-02/topologia-01/topologia-01.png)
+![Evidencia](docs/practica-02/topologia-01/evidencias/topologia-01-pings-entre-pcs.png)
+
+### Práctica 2
+Construcción de la red simulada en GNS3.
+Estado: Completada.
+![Topologia02](docs/practica-02/topologia-02/topologia-02.png)
+![Evidencia](docs/practica-02/topologia-02/evidencias/t2-ospf-neighbor.png)
+
+Infraestructura construida:
+- Topología básica PC-Switch-PC.
+- Topología con dos routers y un switch multicapa.
+- Direccionamiento IP.
+- Conectividad entre dispositivos.
+- Protocolo OSPF.
+- Verificación de tablas de enrutamiento.
+
+Próximo paso:
+Desarrollo de scripts y herramientas para automatizar tareas sobre la infraestructura de red.
+
