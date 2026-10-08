@@ -1,3 +1,4 @@
+# Parte 1: Tipos de Datos Simples
 #Ejercicio 2
     #Planteamiento del problema: 
     #Escribir un programa que almacene la cadena ¡Hola estudiante de IRIC! 

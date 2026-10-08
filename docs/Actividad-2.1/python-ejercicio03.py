@@ -1,3 +1,4 @@
+# Parte 1: Tipos de Datos Simples
 #Ejercicio 3
     #Planteamiento del problema: Escribir un programa que pregunte el nombre del usuario en la consola 
     # y después muestre por pantalla la cadena ¡Hola <nombre>!.

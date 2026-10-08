@@ -1,4 +1,4 @@
-# Parte 1: Tipos dpye Datos Simples
+# Parte 1: Tipos de Datos Simples
     # Ejercicio 1
     # Planteamiento del problema: 
     # Escribir un programa que muestre por pantalla la cadena ¡Hola estudiante de IRIC!.
