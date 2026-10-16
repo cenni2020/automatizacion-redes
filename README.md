@@ -239,15 +239,14 @@ Desarrollo de scripts y herramientas para automatizar tareas sobre la infraestru
   ---
 
 ## 3. Dispositivos Representados
-    A continuación se detalla la infraestructura simulada basada en la Práctica 2 y representada en el script `Dispositivos.py`:
+A continuación se detalla la infraestructura simulada basada en la Práctica 2 y representada en el script `Dispositivos.py`:
 
-    | Dispositivo | Tipo | Dirección IP | Estado | Función / Detalles |
-    | :--- | :--- | :--- | :--- | :--- |
-    | **R1** | Router | 10.1.1.1 | Activo | Enrutamiento (Cisco / OSPF / Loopback: 1.1.1.1) |
-    | **R2** | Router | 10.1.1.2 | Activo | Enrutamiento (Cisco / OSPF / Loopback: 1.1.1.1) |
-    | **S1** | Switch | 10.1.1.3 | Fuera de servicio | Conectividad de Capa 2 / Acceso |
-
-    ---
+| Dispositivo | Tipo | Dirección IP | Estado | Función / Detalles |
+| :--- | :--- | :--- | :--- | :--- |
+| **R1** | Router | 10.1.1.1 | Activo | Enrutamiento (Cisco / OSPF / Loopback: 1.1.1.1) |
+| **R2** | Router | 10.1.1.2 | Activo | Enrutamiento (Cisco / OSPF / Loopback: 1.1.1.1) |
+| **S1** | Switch | 10.1.1.3 | Fuera de servicio | Conectividad de Capa 2 / Acceso |
+---
 
 ## 4. Preguntas de Análisis
 
@@ -276,24 +275,22 @@ Desarrollo de scripts y herramientas para automatizar tareas sobre la infraestru
 
 ## 5. Bitácora de Problemas y Soluciones
 
-    | Problema Encontrado | Posible Causa | Solución Aplicada | Resultado |
-    | :--- | :--- | :--- | :--- |
-    | `KeyError: 'fabricante'` al procesar el switch S1. | El diccionario del switch no contenía las llaves de fabricante y protocolo definidas en los routers. | Se agregaron los campos correspondientes a todos los elementos de la lista con valores adecuados (`"Cisco"`, `"N/A"`). | El script recorre la lista completa sin arrojar excepciones de claves faltantes. |
-    | Confusión en los nombres de las variables del ciclo (`for Dispositivo in Dispositivo:`). | Uso idéntico del nombre de la lista plural con la variable singular del iterador, generando conflictos de alcance. | Se renombró la variable temporal a un nombre diferenciado (ej. `for item in Dispositivo:` o `for disp in lista`). | El intérprete de Python procesó correctamente la iteración sin sobrescribir la estructura principal. |
-
-    ---
+| Problema Encontrado | Posible Causa | Solución Aplicada | Resultado |
+| :--- | :--- | :--- | :--- |
+| `KeyError: 'fabricante'` al procesar el switch S1. | El diccionario del switch no contenía las llaves de fabricante y protocolo definidas en los routers. | Se agregaron los campos correspondientes a todos los elementos de la lista con valores adecuados (`"Cisco"`, `"N/A"`). | El script recorre la lista completa sin arrojar excepciones de claves faltantes. |
+| Confusión en los nombres de las variables del ciclo (`for Dispositivo in Dispositivo:`). | Uso idéntico del nombre de la lista plural con la variable singular del iterador, generando conflictos de alcance. | Se renombró la variable temporal a un nombre diferenciado (ej. `for item in Dispositivo:` o `for disp in lista`). | El intérprete de Python procesó correctamente la iteración sin sobrescribir la estructura principal. |
+ ---
 
 ## 6. Evidencias de la Práctica
-    *(Nota: Asegúrate de colocar tus capturas en la carpeta de evidencias y enlazar correctamente las rutas)*
-    - **Evidencia 1 (Estructura del repositorio):** Captura de la jerarquía de carpetas en VS Code.
-    - **Evidencia 2 y 3 (Código y Ejecución inicial):** Creación de variables y salida en consola con `print()`.
-    - **Evidencia 4 (Dispositivos de Práctica 2):** Adaptación de datos con parámetros de GNS3 (R1, R2).
-    - **Evidencia 5 y 6 (Listas, diccionarios y ciclos):** Implementación de estructuras de datos y bucle `for`.
-    - **Evidencia 7 (Función y condicionales):** Modularización con `def` y validaciones de estado `if`.
-    - **Evidencia 8 (Reto Final):** Funcionamiento de la función de búsqueda interactiva por teclado con `input()`.
-    - **Evidencia 9 (Repositorio en GitHub):** Vista del repositorio actualizado con los cambios de la Práctica 3.
-
-    ---
+*(Nota: Asegúrate de colocar tus capturas en la carpeta de evidencias y enlazar correctamente las rutas)*
+- **Evidencia 1 (Estructura del repositorio):** Captura de la jerarquía de carpetas en VS Code.
+- **Evidencia 2 y 3 (Código y Ejecución inicial):** Creación de variables y salida en consola con `print()`.
+- **Evidencia 4 (Dispositivos de Práctica 2):** Adaptación de datos con parámetros de GNS3 (R1, R2).
+- **Evidencia 5 y 6 (Listas, diccionarios y ciclos):** Implementación de estructuras de datos y bucle `for`.
+- **Evidencia 7 (Función y condicionales):** Modularización con `def` y validaciones de estado `if`.
+- **Evidencia 8 (Reto Final):** Funcionamiento de la función de búsqueda interactiva por teclado con `input()`.
+- **Evidencia 9 (Repositorio en GitHub):** Vista del repositorio actualizado con los cambios de la Práctica 3.
+---
 
 ## 7. Conclusiones Individuales
 
