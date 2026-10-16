@@ -284,6 +284,7 @@ A continuación se detalla la infraestructura simulada basada en la Práctica 2 
 ## 6. Evidencias de la Práctica
 
 - **Evidencia 1 (Estructura del repositorio):** Captura de la jerarquía de carpetas en VS Code. 
+- ![Evidencia03](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-16%20110801.png)
 - 
 - **Evidencia 2 y 3 (Código y Ejecución inicial):** Creación de variables y salida en consola con `print()`.- ![Evidencia03](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20182037.png)
 
@@ -301,7 +302,7 @@ A continuación se detalla la infraestructura simulada basada en la Práctica 2 
 - - ![Evidencia08](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20202704.png)
 
 - **Evidencia 9 (Repositorio en GitHub):** Vista del repositorio actualizado con los cambios de la Práctica 3.
-- - - ![Evidencia08](docs/practica-03/evidencia03/C)
+- - - ![Evidencia08](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-16%20110801.png)
 
 ---
 
