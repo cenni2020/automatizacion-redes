@@ -288,10 +288,21 @@ A continuación se detalla la infraestructura simulada basada en la Práctica 2 
 - **Evidencia 2 y 3 (Código y Ejecución inicial):** Creación de variables y salida en consola con `print()`.- ![Evidencia03](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20182037.png)
 
 - **Evidencia 4 (Dispositivos de Práctica 2):** Adaptación de datos con parámetros de GNS3 (R1, R2).
+- ![Evidencia04](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20183530.png)
+
 - **Evidencia 5 y 6 (Listas, diccionarios y ciclos):** Implementación de estructuras de datos y bucle `for`.
+- - ![Evidencia05y6](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20192659.png)
+
 - **Evidencia 7 (Función y condicionales):** Modularización con `def` y validaciones de estado `if`.
+- - ![Evidencia07](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20194027.png)
+
 - **Evidencia 8 (Reto Final):** Funcionamiento de la función de búsqueda interactiva por teclado con `input()`.
+- - ![Evidencia08](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20202606.png)
+- - ![Evidencia08](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20202704.png)
+
 - **Evidencia 9 (Repositorio en GitHub):** Vista del repositorio actualizado con los cambios de la Práctica 3.
+- - - ![Evidencia08](docs/practica-03/evidencia03/C)
+
 ---
 
 ## 7. Conclusiones Individuales
