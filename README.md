@@ -222,7 +222,7 @@ Desarrollo de scripts y herramientas para automatizar tareas sobre la infraestru
 ---
 
 ## 1. Propósito
-    Desarrollar un programa inicial en Python capaz de almacenar, organizar, modificar y mostrar información básica de los dispositivos de red simulados en la topología de GNS3 (Práctica 2). El propósito fundamental es comprender cómo estructurar datos de infraestructura mediante variables, diccionarios, listas, bucles, condiciones y funciones antes de implementar bibliotecas de automatización o conexiones directas mediante APIs y protocolos de red.
+ Desarrollar un programa inicial en Python capaz de almacenar, organizar, modificar y mostrar información básica de los dispositivos de red simulados en la topología de GNS3 (Práctica 2). El propósito fundamental es comprender cómo estructurar datos de infraestructura mediante variables, diccionarios, listas, bucles, condiciones y funciones antes de implementar bibliotecas de automatización o conexiones directas mediante APIs y protocolos de red.
 
     ---
 
@@ -282,9 +282,11 @@ A continuación se detalla la infraestructura simulada basada en la Práctica 2 
  ---
 
 ## 6. Evidencias de la Práctica
-*(Nota: Asegúrate de colocar tus capturas en la carpeta de evidencias y enlazar correctamente las rutas)*
-- **Evidencia 1 (Estructura del repositorio):** Captura de la jerarquía de carpetas en VS Code.
-- **Evidencia 2 y 3 (Código y Ejecución inicial):** Creación de variables y salida en consola con `print()`.
+
+- **Evidencia 1 (Estructura del repositorio):** Captura de la jerarquía de carpetas en VS Code. 
+- 
+- **Evidencia 2 y 3 (Código y Ejecución inicial):** Creación de variables y salida en consola con `print()`.- ![Evidencia03](docs/practica-03/evidencia03/Captura%20de%20pantalla%202026-10-15%20182037.png)
+
 - **Evidencia 4 (Dispositivos de Práctica 2):** Adaptación de datos con parámetros de GNS3 (R1, R2).
 - **Evidencia 5 y 6 (Listas, diccionarios y ciclos):** Implementación de estructuras de datos y bucle `for`.
 - **Evidencia 7 (Función y condicionales):** Modularización con `def` y validaciones de estado `if`.
