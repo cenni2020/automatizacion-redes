@@ -404,3 +404,22 @@ automatizacion-redes/
 
 **Próximo paso:** Continuar con el desarrollo de scripts avanzados de automatización para la gestión integral de la infraestructura de red.
 
+##Actividad 2.7: Gestión colaborativa de versiones con Git y GitHub . Cierre y reflexión
+
+1. **¿Qué beneficios ofrece Git para administrar proyectos de software?**
+   Ofrece un control de versiones distribuido que facilita la colaboración en equipo sin riesgo de sobrescribir el trabajo de otros, mantiene un historial detallado y trazable de cada modificación (quién, cuándo y qué se cambió), y permite la recuperación rápida de versiones anteriores estables cuando un cambio introduce un error.
+
+2. **¿Qué función desempeñan el directorio de trabajo, el área de preparación y el repositorio local?**
+   * **Directorio de trabajo:** Es el espacio en el disco duro donde se editan, crean y modifican los archivos del proyecto en tiempo real.
+   * **Área de preparación (Staging Area):** Funciona como un puente o zona intermedia donde se seleccionan y agrupan de forma controlada los archivos que formarán parte de la próxima confirmación.
+   * **Repositorio local:** Es la base de datos interna de Git en la computadora que almacena de manera permanente el historial completo de los commits y versiones del proyecto.
+
+3. **¿Cuál es la diferencia entre un commit y una rama?**
+   * Un **commit** es una confirmación o instantánea (*snapshot*) que guarda de forma permanente el estado de los archivos en un momento específico del proyecto.
+   * Una **rama (branch)** es una línea de desarrollo independiente que permite experimentar, desarrollar nuevas características o corregir errores de forma aislada sin alterar la rama principal (`main` o `master`) hasta que el trabajo esté listo para integrarse.
+
+4. **¿Por qué es importante revisar los cambios antes de integrarlos?**
+   Es fundamental para verificar que el código o los archivos modificados funcionen correctamente, evitar conflictos de contenido con el trabajo de otros compañeros, detectar posibles errores de sintaxis u omisiones, y asegurar que la rama principal permanezca siempre estable.
+
+5. **¿Cómo podrían aplicar lo aprendido en futuros proyectos colaborativos?**
+   Implementando un flujo de trabajo estructurado basado en ramas específicas para cada tarea o integrante, realizando commits frecuentes con mensajes claros y descriptivos, y aplicando buenas prácticas de integración y revisión antes de fusionar los cambios en el repositorio compartido.
